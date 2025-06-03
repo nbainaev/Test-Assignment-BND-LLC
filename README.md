@@ -21,8 +21,8 @@
 
 1. Клонируйте репозиторий:
 ```bash
-git clone https://github.com/nbainaev/Technical-Assignment-BND-LLC.git
-cd Technical-Assignment-BND-LLC
+git clone https://github.com/nbainaev/Test-Assignment-BND-LLC.git
+cd Test-Assignment-BND-LLC
 ```
 
 2. Установите зависимости:
