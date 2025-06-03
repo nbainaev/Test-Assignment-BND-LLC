@@ -1,6 +1,6 @@
 import cv2
 from typing import Any
-
+from pathlib import Path
 
 def predict_video(
         model: Any,
@@ -47,7 +47,7 @@ def predict_video(
 
     # Создание VideoWriter
     fourcc = cv2.VideoWriter_fourcc(*'mp4v')
-    video_writer = cv2.VideoWriter(save_path, fourcc, fps, (width, height))
+    video_writer = cv2.VideoWriter(Path(save_path), fourcc, fps, (width, height))
     assert video_writer.isOpened(), "Failed to create video writer"
 
     while True:

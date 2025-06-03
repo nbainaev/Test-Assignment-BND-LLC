@@ -26,14 +26,20 @@ cd Test-Assignment-BND-LLC
 ```
 
 2. Установите зависимости:
+### Linux/macOS**  
 ```bash
 pip install -r requirements.txt
-```
+```  
+#### **Windows**  
+```powershell
+py -m pip install -r requirements.txt
+```  
 
-3. Запустите программу:
+### **3. Запуск**  
 ```bash
-python ./scripts/main.py
-```
+python scripts/main.py
+```  
+*(На Windows используйте `py scripts/main.py`)* 
 
 ## Конфигурация
 
