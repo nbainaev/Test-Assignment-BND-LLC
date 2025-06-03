@@ -26,7 +26,7 @@ cd Test-Assignment-BND-LLC
 ```
 
 2. Установите зависимости:
-### Linux/macOS**  
+### **Linux/macOS**  
 ```bash
 pip install -r requirements.txt
 ```  
