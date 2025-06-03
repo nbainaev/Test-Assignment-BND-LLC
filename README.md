@@ -50,9 +50,9 @@ python scripts/main.py
 model: "yolov8m.pt" # Тип модели
 iou: 0.7 # Пороговое значение метрики IoU для учета предсказания модели
 conf: 0.5 # Порог степени уверенности модели в предсказании для отнесения к предсказываемому классу
-video_path: "../data/crowd.mp4" # Путь к видео для обработки
-save_path: "../output/detected_video.mp4" # Путь для сохранения обработанного видео
-weights_path: "../weigths/yolov8s.pt" # Путь к весам модели
+video_path: "data/crowd.mp4" # Путь к видео для обработки
+save_path: "output/detected_video.mp4" # Путь для сохранения обработанного видео
+weights_path: False # Путь к весам модели (если есть). Если его нет, поставить False
 
 # Параметры отображения а видео
 line_width: 2 # Ширина линии bounfing box
