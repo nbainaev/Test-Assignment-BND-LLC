@@ -1,0 +1,4 @@
+# Virtualenv  
+venv/  
+
+/scripts/__pycache__/
